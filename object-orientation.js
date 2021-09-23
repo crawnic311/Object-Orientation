@@ -162,8 +162,20 @@ console.log(totalPopulation(states));
 */
 
 //Code Here
+const macros = {
+  carb: "Pasta",
+  fat: "Avacado",
+  protein: "Chicken"
+}
 
+function ingredients(obj) {
+  const {carb: carbs, fat: fats, protein: proteins} = obj;
+  var macrosArray = [];
+  macrosArray.push(carbs, fats, proteins);
+  return macrosArray;
+}
 
+console.log(ingredients(macros));
 
 //////////////////////////// PROBLEM 10 ////////////////////////////
 // Do not edit the code below.
