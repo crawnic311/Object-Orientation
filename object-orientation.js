@@ -113,11 +113,14 @@ console.log(carColor, carMake, carModel, carYear);
 
 function greeting( obj ) {
   //Code Here
-  
+  const {firstName: newFirst} = obj;
+  const {lastName: newLast} = obj;
+  const {title: newTitle} = obj;
   // Do not edit the code below.
   return 'Hello, ' + title + ' ' + firstName + ' ' + lastName + '!';
   // Do not edit the code above.
 }
+
 
 
 
