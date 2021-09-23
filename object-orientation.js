@@ -238,6 +238,19 @@ console.log(ozzy.catName);
 */
 
 //Code here
+class Wizard {
+  constructor(name, age, favoriteSpell) {
+    this.wizName = name,
+    this.wizAge = age,
+    this.wizFavSpell = favoriteSpell
+  }
+  castSpell() {
+    console.log(`${this.wizName} has cast ${this.wizFavSpell}`);
+  }
+}
+
+let gandolf = new Wizard("Gandolf", 3023, "fireball");
+gandolf.castSpell();
 
 //////////////////////////// PROBLEM 14 ////////////////////////////
 /*
