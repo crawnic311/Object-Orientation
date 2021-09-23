@@ -348,7 +348,13 @@ const colors = {
 //do not edit this object
 
 //Code Here 
+console.log(colors);
 
+const styleGuide = {
+  ...colors,
+}
+
+console.log(styleGuide);
 
 
 /*
@@ -376,7 +382,11 @@ const shippingInfo = {
 //do not edit the objects above
 
 //Code Here
-
+const allInfo = {
+  ...contactInfo,
+  ...shippingInfo
+}
+console.log(allInfo);
 
 //Print helensInfo to see what it looks like, there should be no repeating properties.
 
