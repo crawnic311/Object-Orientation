@@ -135,6 +135,19 @@ function greeting( obj ) {
 */
 
 //Code Here
+const states = {
+  utah: 1,
+  california: 2,
+  texas: 3,
+  arizona: 4
+}
+
+function totalPopulation(obj) {
+  const {utah: utahNum, california: caliNum, texas: texasNum, arizona: arizNum} = obj;
+  var sum = utahNum + caliNum + texasNum + arizNum;
+  return sum;
+}
+console.log(totalPopulation(states));
 
 
 
