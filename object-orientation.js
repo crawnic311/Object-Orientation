@@ -92,6 +92,14 @@ var carDetails = {
 */
 
 //Code Here
+/*
+const {color: carColor} = carDetails;
+const {make: carMake} = carDetails;
+const {model: carModel} = carDetails;
+const {year: carYear} = carDetails;
+*/
+const {color: carColor, make: carMake, model: carModel, year: carYear} = carDetails;
+console.log(carColor, carMake, carModel, carYear);
 
 
 
