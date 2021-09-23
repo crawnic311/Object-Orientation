@@ -276,7 +276,23 @@ gandolf.castSpell();
 */
 
 //Code Here
-
+class Phone {
+  constructor(brand, model, storage, color, price) {
+    this.cellBrand = brand,
+    this.cellModel = model,
+    this.cellStorage = storage,
+    this.cellColor = color,
+    this.cellPrice = price,
+    this.cellSold = false
+  }
+  sell() {
+    this.cellSold = true;
+    console.log(`${this.cellBrand} ${this.cellModel} has been sold`);
+  }
+  changePrice(newPrice) {
+    this.cellPrice = newPrice;
+  }
+}
   
 /*
     Next make three new phone instances using your class.
@@ -289,6 +305,9 @@ gandolf.castSpell();
 */
 
 //Code Here
+let iphone = new Phone("Apple", "iPhone 13", 256, "Space Gray", 999);
+let galaxy = new Phone("Samsung", "Note 15", 256, "White", 599);
+let google = new Phone("Google", "Pixel 7", 500, "Ocean Blue", 799);
 
 /* 
   Call the changePrice function on one of your phones, 
@@ -298,7 +317,9 @@ gandolf.castSpell();
 */ 
 
 //Code Here 
-
+console.log(galaxy);
+galaxy.changePrice(499);
+console.log(galaxy);
 
 /*
   Now call the sell method on one of your other phone objects
@@ -307,7 +328,8 @@ gandolf.castSpell();
 */
 
 //Code Here 
-
+iphone.sell();
+console.log();
 
 //////////////////////////// PROBLEM 15 ////////////////////////////
 
