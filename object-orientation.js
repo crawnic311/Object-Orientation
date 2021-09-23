@@ -62,7 +62,9 @@ const favoriteThings = {
 */
 
 //Code here
-
+favoriteThings["car"] = "Toyota Tacoma";
+favoriteThings['show'] = "Breaking Bad";
+console.log(favoriteThings);
 
 /*
   Now use bracket or dot notation to change the value of the food key in your favoriteThings object to be 'Chicken Nuggets'
@@ -70,7 +72,9 @@ const favoriteThings = {
 */
 
 //Code here
-
+favoriteThings.food = "Chicken Nuggets";
+favoriteThings['book'] = "Harry Potter";
+console.log(favoriteThings);
 
 //////////////////////////// PROBLEM 6 ////////////////////////////
 
