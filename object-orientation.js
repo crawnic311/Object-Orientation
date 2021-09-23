@@ -48,7 +48,14 @@ console.log(dog['color']);
 */
 
 //Code here
-
+const favoriteThings = {
+  band: "311",
+  food: "Thai Curry",
+  person: "My brother",
+  book: "12 Rules for Life",
+  movie: "Interstellar",
+  holiday: "New Years Day"
+}
 
 /*
   After you've made your object, use bracket or dot notation to add another key named 'car' with the value being your favorite car and then another key named 'show' with the value being your favorite show.
